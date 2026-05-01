@@ -3,6 +3,11 @@ html{
 }
 body {
     background-image: linear-gradient(#FC5E55 , #FA4083);
+    font-family:"Roboto", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 300;
+    
 }
 
 .container {
@@ -62,12 +67,23 @@ main {
 }
 .herobox1 {
     flex: 2;
+    padding-right: 100px;
 }
 
 .herobox2 {
     flex: 1;
 }
 
+h1 {
+font-size: 3.25rem;
+font-family: "Playfair", serif;
+margin: 1rem;
+}
+
+p {
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem ;
+}
 .logo {
     margin: 0;
     padding: 0;
@@ -89,3 +105,4 @@ border-style: solid;
 border-width: 1px;
 position: relative;
 }
+
