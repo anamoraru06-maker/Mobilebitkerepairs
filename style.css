@@ -10,6 +10,11 @@ body {
     
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 .container {
  width: 1024px;
  min-height: 300px;
@@ -104,16 +109,25 @@ p {
 
 }
 
-i {
-    font-size: 1rem;
+.cards svg {
+    font-size: 100px;
+    padding-top: 8%;
 }
-.logo {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-    font: inherit;
 
+.mybutton {
+    background-color: white;
+    color: #FC5E55;
+    font-family: "Playfair", serif;
+    padding: 11px 20px;
+   
+     margin-top: 20px;
+
+}
+
+a.mybutton {
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 12px;
 }
 
 .navbutton {
