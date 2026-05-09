@@ -1,8 +1,8 @@
 html{
-    height: 100%;
+  
 }
 body {
-    background-image: linear-gradient(#FC5E55 , #FA4083);
+    background-image: linear-gradient(#FC5E55 , #d93e35);
     font-family:"Roboto", sans-serif;
     color: rgb(255, 255, 255);
     font-size: 1.25rem;
@@ -24,10 +24,12 @@ a {
 }
 
 header {
-
  display: flex;
  justify-content: space-between;
  align-items: center;
+ padding-bottom: 20px;
+ padding-top: 20px;
+ border-bottom: 1px solid white;
 }
 
 nav
@@ -134,6 +136,13 @@ a.mybutton {
     border-radius: 12px;
 }
 
+.mybutton:hover {
+    background-color: #FC5E55;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s ease-in-out;
+}
+
 .navbutton {
 text-decoration: none;
 color: white;
@@ -145,5 +154,31 @@ display: inline-block;
 border-style: solid;
 border-width: 1px;
 position: relative;
+font-family: "Playfair", serif;
 }
 
+.testimonials {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-left: 335px;
+    margin-right: 335px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+    font-family: "roboto", serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.tbox p:last-of-type {
+    font-size: 0.8rem;
+    padding-left: 30px;
+}
