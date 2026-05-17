@@ -57,13 +57,54 @@
                 <p>We are here to help! Contact us for advice, to book a service or to find out more about our services. We are available 7 days a week and we will get back to you as soon as possible.</p>
 
                 <form action="Email.php" method="post">
-                    <input type="text" id="name" name="name" placeholder="Your name..">
+                    
+                    
+                    <div class="inputwrapper">
+                        <label for="name" class="newline"> First Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+                    </div>
 
-                  
-                    <input type="email" id="email" name="email" placeholder="Your email..">
+                    <div class="inputwrapper">
+                        <label for="email" class="newline">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email..">
+                    </div>
+
+                    <div class="inputwrapper">
+
+                        <textarea id="message" name="message" cols="100" rows="5" placeholder="Let us know how we can help.." style="height:200px"></textarea>
+                    </div>
+
+                    <div class="inputwrapper">
+
+                        <input type="checkbox" name="email-sub" id="email-sub" value="yes-sing-me-up" checked>
+                        <label for="email-sub">Sign up for our newsletter</label>
+                    </div>
+
+                    <div class="inputwrapper">
+
+                        <p>How would you like to be contacted?</p>
+
+                        <input type="radio" name="contact-perf" id="phone" value="phone">
+                        <label for="phone">Phone</label>
+                       
+                        <input type="radio" name="contact-perf" id="email2" value="email">
+                        <label for="email2">Email</label>
+
+                        <div class="inputwrapper">
+
+                            <select name="county" id="county">
+                                <option value="not-chosen">Select your county</option>
+                                <option value="dublin">Dublin</option>
+                                <option value="meath">Meath</option>
+                                <option value="kildare">Kildare</option>
+                                <option value="wicklow">Wicklow</option>
+                            </select>
 
 
-                    <input type="submit" value="Submit">
+                        </div>
+                    </div>
+
+                    <input type="submit" value="Submit" class="mybutton">
 
 
                 </form>

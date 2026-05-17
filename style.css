@@ -211,3 +211,33 @@ font-family: "Playfair", serif;
 .dropdown .navbutton a {
    color: #f34f4f;
 }
+
+.inputwrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: playfair, serif;
+    font-size: 1rem;
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin: 40px 0;
+    border: none;
+}
